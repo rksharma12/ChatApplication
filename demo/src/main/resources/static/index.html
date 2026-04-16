@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+<div id="loginForm">
+    <input id="loginUser" placeholder="email">
+    <input id="loginPass" type="password" placeholder="password">
+    <button onclick="login()">Login</button>
+    <p onclick="showSignup()">Create account</p>
+</div>
+
+<div id="signupForm" style="display:none;">
+    <input id="signupUser" placeholder="username">
+    <input id="email" placeholder="email">
+    <input id="signupPass" type="password" placeholder="password">
+    <button onclick="signup()">Signup</button>
+    <p onclick="showLogin()">Back to login</p>
+
+</div>
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
